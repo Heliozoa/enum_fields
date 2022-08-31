@@ -1,12 +1,13 @@
 [package]
-name = "enum-fields"
+name = "enum_fields"
 version = "0.1.0"
-authors = ["Heliozoa <dm89132@gmail.com>"]
-edition = "2018"
+authors = ["Heliozoa <daniel.x.martinez@helsinki.fi>"]
+edition = "2021"
+license = "MPL-2.0"
 
 [lib]
 proc-macro = true
 
 [dependencies]
-syn = { version = "1", features = ["full"] }
-quote = "1"
+syn = { version = "1.0.99", features = ["full"] }
+quote = "1.0.21"
