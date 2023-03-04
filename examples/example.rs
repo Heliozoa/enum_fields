@@ -1,8 +1,5 @@
-# enum_fields
-Rust proc macro attribute for adding fields to every named enum variant.
+#![allow(dead_code)]
 
-## Example
-```rs
 #[enum_fields::add(b: bool, o: Option<bool>)]
 enum Enum {
     FirstVariant { i: isize, u: usize },
@@ -25,4 +22,3 @@ fn main() {
     println!("{}", e.b());
     // prints: false
 }
-```
