@@ -9,5 +9,5 @@ license = "MPL-2.0"
 proc-macro = true
 
 [dependencies]
-syn = { version = "1.0.99", features = ["full"] }
+syn = { version = "2.0.39", features = ["full"] }
 quote = "1.0.21"
